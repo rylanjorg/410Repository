@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3512178957025671756
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MetCol_1
+  m_Shader: {fileID: -6465566751694194690, guid: b0a62d4d0f07e034e8c06f1ac50c7787,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Specular_Texture:
+        m_Texture: {fileID: 2800000, guid: 26235f50bcd04254d876d7616775cec5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_9ba7b457754d40219c784b3976595ace_Out_0:
+        m_Texture: {fileID: 2800000, guid: 15fbae3e1890bff418d80df7f3b2872e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_9ba7b457754d40219c784b3976595ace_Out_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 15fbae3e1890bff418d80df7f3b2872e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CustomShadowScalar: 0.65
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ShadowHue: 0
+    - _ShadowLightness: 0
+    - _ShadowSaturation: 0.5
+    - _SideTransparency: 0.3
+    - _SmoothnessOffset: 0
+    - _SpecularScale: 0.5
+    - _SpecularScaler: 1
+    - _TopLerp: 0.9
+    - _TopTransparency: 0.6
+    m_Colors:
+    - _MainColor: {r: 0.5660378, g: 0.4681172, b: 0.39782843, a: 0}
+    - _OutterTexTiling: {r: 0.25, g: 0.25, b: 0, a: 0}
+    - _OuuterTexWhiteColor: {r: 0.01, g: 0.01, b: 0.01, a: 0}
+    - _Specular_Scale: {r: 0.2, g: 0.2, b: 0, a: 0}
+    - _TopColor: {r: 0.16, g: 0.13599999, b: 0.13599999, a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6251403535635567758
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SkyBox_1
+  m_Shader: {fileID: -6465566751694194690, guid: ac3a8cbc4964f464abab763a3be5738c,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SampleTexture2D_81132c820e994383b2dcff0006221163_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 9f0c6dc7325dd2d40af3fe3872c80a42, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BleedLightness: 0.48
+    - _BleedSaturation: 0.91
+    - _BottomLacunarity: 10.7
+    - _BottomNoiseScale: 1.01
+    - _BottomOctave: 4
+    - _BottomPersistence: 0.22
+    - _BottomScalar: 3.28
+    - _Dot_Density: -0.32
+    - _Edge: 0.243
+    - _Effect: 0.7
+    - _Lacunarity: 2.58
+    - _Lacunarity_1: 5.61
+    - _Lacunarity_2: 3.76
+    - _Layer1_Scaler: 1.87
+    - _Layer2_Scalar: 4.09
+    - _MiddleLacunarity: 2.93
+    - _MiddleNoiseScale: 5.71
+    - _MiddleOctave: 4
+    - _MiddlePersistence: 0.38
+    - _MiddleScaler: 0.5
+    - _NoiseScale: 37.2
+    - _NoiseScale_1: 5.32
+    - _NoiseScale_2: 24.3
+    - _NoiseScale__1: 6.42
+    - _Octave: 4.13
+    - _Octave_1: 4
+    - _Octave_2: 4.75
+    - _PaddingAmount: 0.024
+    - _Persistence: -0.3
+    - _Persistence_1: -0.27
+    - _Persistence_2: 0.31
+    - _Posterize_steps: 3
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - _BaseColor: {r: 0.12775898, g: 0.20067194, b: 0.2735849, a: 1}
+    - _BleedingColor: {r: 1, g: 1, b: 1, a: 0}
+    - _BottomLayerColor: {r: 0.58348167, g: 0.741696, b: 0.8301887, a: 1}
+    - _Color1: {r: 0.2264151, g: 0.14204344, b: 0.22350354, a: 1}
+    - _Color2: {r: 0.20278569, g: 0.2288576, b: 0.46226418, a: 0}
+    - _Horizon_Color: {r: 0.7000712, g: 0.8585993, b: 0.8679245, a: 0}
+    - _Sky_Color: {r: 0.6148096, g: 0.78009003, b: 0.8301887, a: 0}
+  m_BuildTextureStacks: []

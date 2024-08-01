@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4eb037f7030ce409589fc5f06285ff, type: 3}
+  m_Name: PlayerSword
+  m_EditorClassIdentifier: 
+  weapon:
+    rid: 3620601092655546368
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 3620601092655546368
+      type: {class: SimpleWeapon, ns: , asm: Assembly-CSharp}
+      data:
+        weaponName: PlayerSword1
+        useOutline: 1
+        attackRange: 1
+        attackCooldown: 1
+        rootTransformData:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+          scale: {x: 1, y: 1, z: 1}
+        weaponModelPrefab: {fileID: 2359214600906092043, guid: a6cbd476a17316b43a42cb652cb01bce,
+          type: 3}
+        weaponAnimation: {fileID: 0}
+        attacks:
+        - rid: 3620601092655546372
+        DamageTagFilter:
+        - Enemy
+        CollisionTagFilter:
+        - Enemy
+        vfxStructs:
+        - timeOffset: 0
+          attackReference:
+            rid: -2
+          vfxPrefab: {fileID: 6234516335494755842, guid: 9b4cedd75a8e4f24094ce617d1b7cef4,
+            type: 3}
+          transformData:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+            scale: {x: 1, y: 1, z: 1}
+        - timeOffset: 0
+          attackReference:
+            rid: -2
+          vfxPrefab: {fileID: 487141429616301912, guid: 2e35d7c8847d739439eddb926fcc2830,
+            type: 3}
+          transformData:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 0}
+            scale: {x: 2, y: 10, z: 2}
+        weaponModelInstance: {fileID: 0}
+        timeLastAttack: 0
+        initialRotation: {x: 0, y: 0, z: 0, w: 0}
+        rootTransform: {fileID: 0}
+        audioSource: {fileID: 0}
+        weaponRoot: {fileID: 0}
+        animator: {fileID: 0}
+    - rid: 3620601092655546372
+      type: {class: MeleeAttack, ns: , asm: Assembly-CSharp}
+      data:
+        attackFireSound: {fileID: 0}
+        cooldown: 0
+        simpleCooldown:
+          rid: 3620601094916800524
+        Modifiers: []
+        attackSpeed: 1
+        canAttack: 1
+        rotationLock: 0
+        attackStates:
+        - SwordSwing_a
+        - SwordSwing_b
+        attack_end_States:
+        - SwingEND_a
+        - SwingEND_b
+        attackCooldown: 0.5
+        attacking_end_PlayerRotationFactor: 2
+        attackingPlayerRotationFactor: 2
+        timer_CooldownAttack: 0
+        animator: {fileID: 0}
+        weaponInstanceReference:
+          rid: -2
+        playerDataManagement: {fileID: 0}
+        fsmMovement: {fileID: 0}
+    - rid: 3620601094916800524
+      type: {class: SimpleCooldown, ns: , asm: Assembly-CSharp}
+      data:
+        OnCooldownTick:
+          m_PersistentCalls:
+            m_Calls: []
+        duration: 1
+        timer: 0
+        canUseCooldown: 0
+        resetCooldown: 0
+        cooldownEventTriggers: []

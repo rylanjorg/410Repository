@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: WeaponsGroup
+  m_EditorClassIdentifier: 
+  m_GroupName: WeaponsGroup
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ec94762f81ffa624e9020763c0f7e545
+  m_SerializeEntries:
+  - m_GUID: 70c9cc0afa258444887c6a33e527767d
+    m_Address: Weapons/Prefab/TurretWeapon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ce37ed1024faf654298f48f950b8900a
+    m_Address: Weapons/Prefab/TurretWeapon_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0064e112921040042913dd1a4abce8e0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3c6dc8d6a13aca44dbc205da868966f7, type: 2}
+    - {fileID: 11400000, guid: b75b937dac328b743805f9bc25deac24, type: 2}

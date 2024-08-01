@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4eb037f7030ce409589fc5f06285ff, type: 3}
+  m_Name: TurretWeapon_01
+  m_EditorClassIdentifier: 
+  weapon:
+    rid: 3620600898089648628
+  references:
+    version: 2
+    RefIds:
+    - rid: 3620600898089648628
+      type: {class: SimpleWeapon, ns: , asm: Assembly-CSharp}
+      data:
+        weaponData: {fileID: 0}
+        DamageTagFilter:
+        - Player
+        CollisionTagFilter:
+        - Player
+        attacks: []
+        vfxStructs: []
+        weaponModelInstance: {fileID: 0}
+        timeLastAttack: 0
+        initialRotation: {x: 0, y: 0, z: 0, w: 0}
+        rootTransform: {fileID: 0}
+        audioSource: {fileID: 0}
+        weaponRoot: {fileID: 0}
+        animator: {fileID: 0}

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8db8b4a8ba51baa4c9c0ef36da214569, type: 3}
+  m_Name: FollowState
+  m_EditorClassIdentifier: 
+  state:
+    rid: 3620600665325174786
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 3620600665325174786
+      type: {class: FollowState, ns: , asm: Assembly-CSharp}
+      data:
+        stateName: FollowState
+        stateMachineReference: {fileID: 0}
+        weaponSettingsInstance:
+          rid: -2
+        transitionWrapper:
+          transitions:
+          - targetStateInstance:
+              rid: -2
+            condition:
+            - rid: 4518193689221923305
+            targetState: {fileID: 11400000, guid: 80f55ae0cc016614e921a179c49354e7,
+              type: 2}
+        exitRotationY: {x: 0, y: 0, z: 0, w: 0}
+    - rid: 4518193689221923305
+      type: {class: PAStateCondition, ns: , asm: Assembly-CSharp}
+      data:
+        useInvertedCondition: 0
+        conditionalType: 0
+        proceduralLegController: {fileID: 0}
+        isMetState: 1

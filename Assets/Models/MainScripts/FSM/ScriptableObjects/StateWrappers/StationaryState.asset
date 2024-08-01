@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8db8b4a8ba51baa4c9c0ef36da214569, type: 3}
+  m_Name: StationaryState
+  m_EditorClassIdentifier: 
+  state:
+    rid: 4518193689221922886
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 4518193689221922886
+      type: {class: StationaryAttackState, ns: , asm: Assembly-CSharp}
+      data:
+        stateName: TurretStationaryState
+        stateMachineReference: {fileID: 0}
+        weaponSettingsInstance:
+          rid: -2
+        transitionWrapper:
+          transitions:
+          - targetStateInstance:
+              rid: -2
+            condition:
+            - rid: 4518193689221922947
+            - rid: 4518193689221923320
+            targetState: {fileID: 11400000, guid: 12aa3c148faeaae4791aa64a1dc48a45,
+              type: 2}
+          - targetStateInstance:
+              rid: -2
+            condition:
+            - rid: 4518193689221923321
+            targetState: {fileID: 11400000, guid: 4c59ae32d8d9f7c409f460c9e80cc299,
+              type: 2}
+        exitRotationY: {x: 0, y: 0, z: 0, w: 0}
+    - rid: 4518193689221922947
+      type: {class: TimeElapsedCondition, ns: , asm: Assembly-CSharp}
+      data:
+        useInvertedCondition: 0
+        conditionalType: 0
+        duration: 0.5
+        elapsedTime: 0
+    - rid: 4518193689221923320
+      type: {class: PAStateCondition, ns: , asm: Assembly-CSharp}
+      data:
+        useInvertedCondition: 0
+        conditionalType: 0
+        proceduralLegController: {fileID: 0}
+        isMetState: 1
+    - rid: 4518193689221923321
+      type: {class: PAStateCondition, ns: , asm: Assembly-CSharp}
+      data:
+        useInvertedCondition: 0
+        conditionalType: 0
+        proceduralLegController: {fileID: 0}
+        isMetState: 0

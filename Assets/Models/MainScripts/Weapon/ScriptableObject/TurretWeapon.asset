@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4eb037f7030ce409589fc5f06285ff, type: 3}
+  m_Name: TurretWeapon
+  m_EditorClassIdentifier: 
+  weapon:
+    rid: 3620600898089648628
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 3620600898089648628
+      type: {class: SimpleWeapon, ns: , asm: Assembly-CSharp}
+      data:
+        weaponName: Turret
+        useOutline: 1
+        attackRange: 25
+        attackCooldown: 6
+        rootTransformData:
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 1, y: 1, z: 1}
+        weaponModelPrefab: {fileID: 517552587267442501, guid: 70c9cc0afa258444887c6a33e527767d,
+          type: 3}
+        weaponAnimation: {fileID: 0}
+        attacks:
+        - rid: 3620600898089648629
+        DamageTagFilter: []
+        CollisionTagFilter: []
+        vfxStructs: []
+        weaponModelInstance: {fileID: 0}
+        timeLastAttack: 0
+        initialRotation: {x: 0, y: 0, z: 0, w: 0}
+        rootTransform: {fileID: 0}
+        audioSource: {fileID: 0}
+        weaponRoot: {fileID: 0}
+        animator: {fileID: 0}
+    - rid: 3620600898089648629
+      type: {class: ProjectileAttack, ns: , asm: Assembly-CSharp}
+      data:
+        attackFireSound: {fileID: 8300000, guid: 1b00b2861c0ff4741815637facea5947,
+          type: 3}
+        cooldown: 4
+        simpleCooldown:
+          rid: 3620601002489020770
+        Modifiers:
+        - rid: 3620601002489020426
+        projectileSpeed: 60
+        projectilePrefab: {fileID: 4463040305379188952, guid: 170610994cc618b40b51d926d4402179,
+          type: 3}
+        projectileSpawnPoints:
+        - position: {x: -0.3, y: 0.5, z: 0.5}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 1, y: 1, z: 1}
+        - position: {x: 0.3, y: 0.5, z: 0.5}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 1, y: 1, z: 1}
+        projectileSpawnsGO:
+        - {fileID: 0}
+    - rid: 3620601002489020426
+      type: {class: ChargeUpModifier, ns: , asm: Assembly-CSharp}
+      data:
+        AttackReference:
+          rid: -2
+        weaponInstance:
+          rid: -2
+        Type: 0
+        sfx: {fileID: 0}
+        chargeUpTime: 3
+    - rid: 3620601002489020770
+      type: {class: SimpleCooldown, ns: , asm: Assembly-CSharp}
+      data:
+        OnCooldownTick:
+          m_PersistentCalls:
+            m_Calls: []
+        duration: 4
+        timer: 0
+        canUseCooldown: 0
+        resetCooldown: 0
+        cooldownEventTriggers:
+        - weaponInstance:
+            rid: -2
+          visualEffectStruct:
+            timeOffset: 2.5
+            attackReference:
+              rid: -2
+            vfxPrefab: {fileID: 6321774413234967958, guid: 98f67dd0761a36243bdb2c45f1b0be23,
+              type: 3}
+            transformData:
+              position: {x: 0, y: 1, z: 1}
+              rotation: {x: 0, y: 0, z: 0, w: 0}
+              scale: {x: 1, y: 1, z: 1}

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8db8b4a8ba51baa4c9c0ef36da214569, type: 3}
+  m_Name: IdleState
+  m_EditorClassIdentifier: 
+  state:
+    rid: 3620600665325174785
+  references:
+    version: 2
+    RefIds:
+    - rid: 3620600665325174785
+      type: {class: IdleState, ns: , asm: Assembly-CSharp}
+      data:
+        stateName: IdleState
+        transitionWrapper:
+          transitions:
+          - condition:
+            - rid: 3620600686624636928
+            targetState: {fileID: 11400000, guid: 4c59ae32d8d9f7c409f460c9e80cc299,
+              type: 2}
+    - rid: 3620600686624636928
+      type: {class: LineOfSightCondition, ns: , asm: Assembly-CSharp}
+      data:
+        useInvertedCondition: 0
+        inheritRootGameObject: 0
+        root: {fileID: 0}
+        stateMachine: {fileID: 0}
+        layerMask:
+          serializedVersion: 2
+          m_Bits: 392
+        filterShouldIgnore_layerMask:
+          serializedVersion: 2
+          m_Bits: 128
+        ignoreTag: Player
+        distanceMode: 1
+        maxDistance: 25

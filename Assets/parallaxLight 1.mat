@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: parallaxLight 1
+  m_Shader: {fileID: 4800000, guid: 7c1c11080924dc6468394cde2b782cdf, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_31E0EB3B:
+        m_Texture: {fileID: 2800000, guid: e3a74a24638a9264fba6e9e583c32aae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_7F38F929:
+        m_Texture: {fileID: 2800000, guid: d08abd1af0bdd6744be124e10c45d930, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_E6AF7F7C:
+        m_Texture: {fileID: 2800000, guid: b5c3ae58e16450541af0cec5f4eeea97, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AO_Mask:
+        m_Texture: {fileID: 2800000, guid: 7c673f458263e3a4793bd350032a124e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMapTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HoneyComb:
+        m_Texture: {fileID: 2800000, guid: 392aa4beb18c78b499548e8201489862, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainParallaxColor:
+        m_Texture: {fileID: 2800000, guid: 9d3fde34e91e1a74a9bb0a0d439680ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainParallaxTex:
+        m_Texture: {fileID: 2800000, guid: 9d3fde34e91e1a74a9bb0a0d439680ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_4a9221c61d0b48c2a4e5308b486ad9ee_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: dd7839b3f4eb06f409644cc6fa1b8f50, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_7bafab4888e542049cb06706269590d8_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 358b22ea1aa427941a75e80d29d9e1cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_d77cb455aa9f496685f83fc2c39f114b_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: dd7839b3f4eb06f409644cc6fa1b8f50, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_e736df2c87b248e9b0645e36d24b58c5_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 358b22ea1aa427941a75e80d29d9e1cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScrollMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TransparencyMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_216A42F: 0.9
+    - Vector1_21A15DBC: 1
+    - Vector1_2E389516: -1.01
+    - Vector1_47C00FDC: 1
+    - Vector1_FF7241B9: 60
+    - _AO_pow: 0.41
+    - _CubeMapScrollAmount: 0.7
+    - _CubeMapStep: 0.04
+    - _CustomShadowScaler: 0
+    - _DepthScalar: 0.49
+    - _Flip_Height_Map: 0
+    - _Fresnel_Pow: 0
+    - _Fresnel_Scalar: 1
+    - _ParallaxScrollAmount: 0.7
+    - _ParallaxTransparency: 0
+    - _ParallaxUvScalar: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Scroll_Speed: 0.1
+    - _ShadowHue: 3.69
+    - _ShadowLightness: 0.63
+    - _ShadowSaturation: 0.449
+    - _SideTransparency: 0.3
+    - _SmoothnessOffset: 0
+    - _Specular_Scale: 0
+    - _Specular_Scaler: 0.2
+    - _TopLerp: 0.9
+    - _TopTransparency: 0.85
+    m_Colors:
+    - Vector4_FFE50E7C: {r: 6, g: 6, b: 0, a: 0}
+    - _AmbientOcclusionColor: {r: 0.26179245, g: 0.2984837, b: 0.3490566, a: 0}
+    - _ColorA: {r: 0.79728734, g: 1, b: 0, a: 0}
+    - _ColorB: {r: 5.3403134, g: 0, b: 0, a: 0}
+    - _ColorC: {r: 1, g: 0.44054058, b: 0, a: 0}
+    - _CubeMapColor: {r: 0.7075472, g: 0.6975347, b: 0.6975347, a: 0}
+    - _CubeMapScrollTiling: {r: 10, g: 10, b: 0, a: 0}
+    - _CubeMapTexTiling: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _DepthColor: {r: 0.04690281, g: 0.13263895, b: 0.3207547, a: 0}
+    - _FogColor: {r: 0.19650277, g: 0.12615696, b: 0.25471696, a: 0}
+    - _HoneyCombTextureScale: {r: 12, g: 12, b: 0, a: 0}
+    - _Interior_Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _MainTexColorA: {r: 0.9433962, g: 0.743147, b: 0.743147, a: 1}
+    - _MainTexColorB: {r: 5.3403134, g: 5.3403134, b: 5.3403134, a: 0}
+    - _MainTexParallaxTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _MainTexTiling: {r: 3, g: 3, b: 0, a: 0}
+    - _OutterTexTiling: {r: 0.25, g: 0.25, b: 0, a: 0}
+    - _OutterTexWhiteColor: {r: 0.2433388, g: 0.2309541, b: 0.2830189, a: 0}
+    - _ParallaxTexBlackColor: {r: 0.745283, g: 0.622241, b: 0.622241, a: 0}
+    - _ParallaxTexWhiteColor: {r: 0.7264151, g: 0.1816038, b: 0.4905629, a: 0}
+    - _ScollHighlightColor: {r: 34.68063, g: 11.72775, b: 0.8376963, a: 0}
+    - _ScrollHighlightCube: {r: 0, g: 0, b: 0, a: 0}
+    - _TopColor: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &5671358320288845105
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
